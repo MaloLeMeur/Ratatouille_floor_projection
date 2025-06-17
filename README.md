@@ -13,12 +13,12 @@ A WiFi-based motion detection system that controls video playback. When motion i
 ### On Raspberry Pi:
 1. Connect PIR sensor to GPIO 24
 2. Configure Raspberry Pi as WiFi hotspot
-3. Run: `python3 raspberry_pi_wifi_server.py`
+3. Run: `pir-server.py`
 
 ### On Client Computer:
 1. Install VLC media player
 2. Connect to Raspberry Pi hotspot
-3. Run: `python3 video_player_pir_wifi.py`
+3. Run: `video-client.py`
 
 ## 📖 Documentation
 
