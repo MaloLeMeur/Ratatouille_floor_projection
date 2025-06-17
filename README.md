@@ -4,9 +4,9 @@ A WiFi-based motion detection system that controls video playback. When motion i
 
 ## 📁 Files
 
-- `raspberry_pi_wifi_server.py` - Server code for Raspberry Pi with PIR sensor
-- `video_player_pir_wifi.py` - Client code for computer with video display
-- `USER_MANUAL.md` - Complete setup and usage instructions
+- `pir-server.py` - Server code for Raspberry Pi with PIR sensor
+- `video-client.py` - Client code for computer with video display
+- `manual.md` - Complete setup and usage instructions
 
 ## 🚀 Quick Start
 
@@ -22,7 +22,7 @@ A WiFi-based motion detection system that controls video playback. When motion i
 
 ## 📖 Documentation
 
-See [USER_MANUAL.md](USER_MANUAL.md) for detailed setup instructions, configuration options, and troubleshooting.
+See [manual.md](manual.md) for detailed setup instructions, configuration options, and troubleshooting.
 
 ## 📋 Requirements
 
