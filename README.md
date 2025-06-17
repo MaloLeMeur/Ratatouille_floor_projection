@@ -1,4 +1,4 @@
-# PIR Motion-Activated Video Player
+# Floor projection
 
 A WiFi-based motion detection system that controls video playback. When motion is detected by a PIR sensor connected to a Raspberry Pi, the video fades to black. When no motion is detected for 7 seconds, the video fades back in.
 
