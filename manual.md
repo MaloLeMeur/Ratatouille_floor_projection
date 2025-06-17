@@ -4,8 +4,8 @@
 
 This system consists of two Python programs that work together to create a motion-activated video player:
 
-1. **PIR WiFi Server** (`raspberry_pi_wifi_server_continuous.py`) - Runs on a Raspberry Pi with a PIR sensor
-2. **Video Player Client** (`video_player_pir_wifi.py`) - Runs on any computer to display video
+1. **PIR WiFi Server** (`pir-server.py`) - Runs on a Raspberry Pi with a PIR sensor
+2. **Video Player Client** (`video-client.py`) - Runs on any computer to display video
 
 When motion is detected by the PIR sensor, the video fades to black. When no motion is detected for 7 seconds, the video fades back in.
 
