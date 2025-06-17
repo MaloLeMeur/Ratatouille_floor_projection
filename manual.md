@@ -55,7 +55,7 @@ When motion is detected by the PIR sensor, the video fades to black. When no mot
    pip3 install RPi.GPIO
    ```
 
-4. Copy `raspberry_pi_wifi_server_continuous.py` to the Raspberry Pi
+4. Copy `pir-server.py` to the Raspberry Pi
 
 ### On the Client Computer:
 
@@ -66,7 +66,7 @@ When motion is detected by the PIR sensor, the video fades to black. When no mot
    pip3 install pygame python-vlc
    ```
 
-3. Copy `video_player_pir_wifi.py` to the client computer
+3. Copy `video-client.py` to the client computer
 
 4. Place your video file (`projection version04.mp4`) in the same directory
 
@@ -77,7 +77,7 @@ When motion is detected by the PIR sensor, the video fades to black. When no mot
 1. Ensure the Raspberry Pi hotspot is active
 2. On the Raspberry Pi, run:
    ```bash
-   python3 raspberry_pi_wifi_server_continuous.py
+   sudo python3 pir-server.py
    ```
 
 The server will display:
@@ -97,7 +97,7 @@ On the client computer:
 
 On the client computer, run:
 ```bash
-python3 video_player_pir_wifi.py
+python3 video-client.py
 ```
 
 You'll be prompted to:
