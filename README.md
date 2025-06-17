@@ -41,6 +41,3 @@ The system uses Raspberry Pi's hotspot (typically 192.168.4.1) on port 5555.
 
 To change settings, edit the configuration section in each Python file.
 
-## 📄 License
-
-MIT License - feel free to use this project for any purpose.
